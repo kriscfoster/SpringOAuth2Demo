@@ -1,0 +1,9 @@
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: # get a client-id from https://console.developers.google.com/
+            client-secret: # get a client-secret from https://console.developers.google.com/
