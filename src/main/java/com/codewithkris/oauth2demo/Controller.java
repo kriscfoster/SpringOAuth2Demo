@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @GetMapping("/")
-    public String unrestricted() {
+    public String helloWorld() {
+        return "you don't need to be logged in";
+    }
+
+    @GetMapping("/not-restricted")
+    public String notRestricted() {
         return "you don't need to be logged in";
     }
 
